@@ -1,0 +1,34 @@
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+
+}
+
+.header {
+  display: inline-flex;
+  width: 100%;
+  height: 69px;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  z-index: 5;
+  border-bottom: 1px solid seashell;
+
+
+
+}
+.header ul {
+  list-style: none;
+  margin-right: 10px;
+}
+.header a {
+  text-decoration: underline;
+  padding: 10px;
+}
+.header img {
+  max-height: 50px;
+  margin-left:10px;
+}
