@@ -1,9 +1,10 @@
-body {
+html {
   font-family: Helvetica;
   font-size: 22px;
   color: seashell;
   background-color: black;
   opacity: 0.9;
+
 
 }
 
@@ -38,8 +39,18 @@ body {
   margin-left:10px;
   z-index: 5;
 }
+
+.content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid red;
+  padding: 20px 20px;
+  }
 .intro {
-  z-index: 1;
+  z-index: 0;
   position: relative;
   top: 69px;
   width: 1200px;
@@ -50,14 +61,64 @@ body {
   align-content: center;
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
   margin-top: 0px;
-  color: seashell;
-
+  border: 1px solid blue;
 }
+
  .caption {
   max-height: 200px;
   background-color: black;
   text-align: center;
+}
+
+.middle {
+  width: 1000px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid yellow;
+  margin-top: 100px;
 
 
+}
 
+.month {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.teas {
+  display: inline-flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  border: 1px solid yellow;
+
+}
+.teas img {
+  height: 200px;
+  widht: 300px;
+
+}
+.teas h4 {
+text-align: center;
+margin-top: 10px;
+}
+
+ .teas #tea-1 {
+  border: 1px solid green;
+  margin-right: 25px;
+}
+.teas #tea-2 {
+ border: 1px solid green;
+ margin-right: 25px;
+
+}
+.teas #tea-3 {
+ border: 1px solid green;
+
+}
+.teas #tea-4 {
+ border: 1px solid green;
+  margin-right: 25px;
+}
+.teas #tea-5 {
+ border: 1px solid green;
 }
