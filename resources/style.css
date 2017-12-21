@@ -22,8 +22,6 @@ html {
   margin-bottom: 0px;
   }
 
-
-
 }
 .header ul {
   list-style: none;
@@ -37,7 +35,7 @@ html {
 .header img {
   max-height: 50px;
   margin-left:10px;
-  z-index: 5;
+
 }
 
 .content {
@@ -46,13 +44,10 @@ html {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  border: 1px solid red;
   padding: 20px 20px;
   }
+
 .intro {
-  z-index: 0;
-  position: relative;
-  top: 69px;
   width: 1200px;
   height: 700px;
   display: flex;
@@ -60,74 +55,64 @@ html {
   justify-content: center;
   align-content: center;
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
-  margin-top: 0px;
-  border: 1px solid blue;
-}
+   }
 
  .caption {
-  max-height: 200px;
   background-color: black;
   text-align: center;
-}
+  }
 
 .middle {
   width: 1000px;
+  height: auto;
   display: flex;
   flex-direction: column;
-  border: 1px solid yellow;
-  margin-top: 100px;
-
-
-}
+  justify-content: flex-start;
+  margin-top: 50px;
+  margin-bottom: 40px;
+  }
 
 .month {
   text-align: center;
-  margin-top: 100px;
-}
+  }
 
 .teas {
   display: inline-flex;
   justify-content: center;
   flex-wrap: wrap;
-  border: 1px solid yellow;
-
 }
+
 .teas img {
   height: 200px;
-  widht: 300px;
+  width: 300px;
+ }
 
-}
 .teas h4 {
-text-align: center;
-margin-top: 10px;
+  text-align: center;
+  margin-top: 10px;
 }
 
- .teas #tea-1 {
-  border: 1px solid green;
-  margin-right: 25px;
+.teas #tea-1 {
+ margin-right: 25px;
 }
 .teas #tea-2 {
- border: 1px solid green;
  margin-right: 25px;
-
 }
+
 .teas #tea-3 {
- border: 1px solid green;
-
 }
+
 .teas #tea-4 {
- border: 1px solid green;
   margin-right: 25px;
 }
+
 .teas #tea-5 {
- border: 1px solid green;
 }
 
 .locations {
   width: 1200px;
   height: 500px;
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
-  border: 1px solid coral;
   display: flex;
   flex direction: column;
   flex-wrap: wrap;
@@ -135,38 +120,46 @@ margin-top: 10px;
   justify-content: center;
 }
 
+
+
 .locations h2 {
-  border: 1px solid red;
   width: 1200px;
   margin-bottom: 15px;
   padding-bottom: 0px;
   text-align: center;
 }
 
-  .address {
-    width: 300px;
-    height: 300px;
-    background-color: black;
-    opacity: 0.9;
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    justify-content: flex-start;
-    border: 1px solid red;
+.address {
+  width: 300px;
+  height: 300px;
+  background-color: black;
+  opacity: 0.9;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  margin-right: 20px;
+  margin-left: 20px;
 
-    margin-right: 40px;
-  }
+}
 
 .address p, h3 {
   text-align: center;
+  
+
 }
+
 .contact  {
   text-align: center;
-
-
+  height: auto;
+  padding-top: 0px;
 }
+
+.contact h2 {
+  margin-top: 10px;
+}
+
+
 footer {
   text-align:left;
   margin-left: 20px;
-
 }
