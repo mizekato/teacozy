@@ -9,13 +9,17 @@ body {
 
 .header {
   display: inline-flex;
+  background-color: black;
   width: 100%;
   height: 69px;
   justify-content: space-between;
   align-items: center;
   position: fixed;
+  top: 0px;
   z-index: 5;
   border-bottom: 1px solid seashell;
+  margin-bottom: 0px;
+  }
 
 
 
@@ -27,8 +31,33 @@ body {
 .header a {
   text-decoration: underline;
   padding: 10px;
+  color: seashell;
 }
 .header img {
   max-height: 50px;
   margin-left:10px;
+  z-index: 5;
+}
+.intro {
+  z-index: 1;
+  position: relative;
+  top: 69px;
+  width: 1200px;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  margin-top: 0px;
+  color: seashell;
+
+}
+ .caption {
+  max-height: 200px;
+  background-color: black;
+  text-align: center;
+
+
+
 }
